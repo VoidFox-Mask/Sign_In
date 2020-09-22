@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:background="@color/background"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        >
+
+
+        <TextView
+            android:id="@+id/student_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="学生"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp"
+            android:layout_marginStart="35dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="60dp"
+            android:layout_weight="1"
+            android:text="签到信息"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp"
+            android:layout_marginStart="35dp"
+            />
+
+
+
+
+        <View
+            android:id="@+id/qiandao_message_text"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/background"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="签到记录"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp"
+            android:layout_marginStart="35dp"
+            />
+
+        <ListView
+            android:id="@+id/student_qiandaojilu"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/background"
+            android:backgroundTintMode="screen"
+
+            />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
