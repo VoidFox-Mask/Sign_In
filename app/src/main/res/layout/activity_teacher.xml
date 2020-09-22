@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:background="@color/teacher_background"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="1"
+        android:background="@color/teacher_message_background"
+        >
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="108dp"
+            android:layout_marginBottom="8dp"
+            android:src="@mipmap/ic_logo_1" />
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="108dp"
+            android:layout_marginBottom="8dp"
+            android:src="@mipmap/ic_logo_2" />
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="108dp"
+            android:layout_marginBottom="8dp"
+            android:src="@mipmap/ic_logo_3" />
+
+        <TextView
+            android:id="@+id/teacher_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="教师"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="280dp"
+            />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="205dp"
+            android:layout_weight="1"
+            android:text="数字签到"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:layout_marginStart="43dp"
+            />
+
+        <TextView
+            android:id="@+id/GPS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="205dp"
+            android:layout_weight="1"
+            android:text="二维码签到"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:layout_marginStart="165dp"
+            />
+
+        <TextView
+            android:id="@+id/teacher_qiandao_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="205dp"
+            android:layout_weight="1"
+            android:text="签到记录"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:layout_marginStart="295dp"
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
